@@ -20,12 +20,39 @@
 | + ReMix |  |  |  | 8.07 ms | 124 |  |
 |  |  |  |  |  |  |  |
 | RT-DETRv4-X | 57.0 | 74.6 | 62.1 | 12.90 ms | 78 | 58e/58e |
-| + Mix | 58.3 | 75.8 | 63.7 | 12.90 ms | 78 | 51e/58e |
+| + Mix | 58.4 | 75.8 | 63.8 | 12.90 ms | 78 | 52e/58e |
 | + Re |  |  |  | 12.90 ms | 78 |  |
 | + ReMix |  |  |  | 12.90 ms | 78 |  |
 |  |  |  |  |  |  |  |
 
 * Our models are under training, the reported performance are temporarily results.
+
+| Model | AP | #Params | GFLOPs | Latency (ms) | note |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| DEIMv2-S | 50.9 | 9.7M | 25.6 | 5.78 | 132e/132e |
+| + Mix |  | 9.7M | 25.6 | 5.78 |  |
+| + Re |  | 9.7M | 25.6 | 5.78 |  |
+| + ReMix |  | 9.7M | 25.6 | 5.78 |  |
+|  |  |  |  |  |  |
+| DEIMv2-M | 53.0 | 18.1M | 52.2 | 8.80 | 102e/102e |
+| + Mix |  | 18.1M | 52.2 | 8.80 |  |
+| + Re |  | 18.1M | 52.2 | 8.80 |  |
+| + ReMix |  | 18.1M | 52.2 | 8.80 |  |
+|  |  |  |  |  |  |
+| DEIMv2-L | 56.0 | 32.2M | 96.7 | 10.47 | 68e/68e |
+| + Mix |  | 32.2M | 96.7 | 10.47 |  |
+| + Re |  | 32.2M | 96.7 | 10.47 |  |
+| + ReMix |  | 32.2M | 96.7 | 10.47 |  |
+|  |  |  |  |  |  |
+| DEIMv2-X | 57.8 | 50.3M | 151.6 | 13.75 | 58e/58e |
+| + Mix | 58.2 | 50.3M | 151.6 | 13.75 | 53e/58e |
+| + Re |  | 50.3M | 151.6 | 13.75 |  |
+| + ReMix |  | 50.3M | 151.6 | 13.75 |  |
+|  |  |  |  |  |  |
+
+* The performance for DEIMv2s are just temporarily results.
+
+
 
 ## Acknowledgement
 
