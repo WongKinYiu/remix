@@ -1,6 +1,6 @@
 # ReMixing Features from Detectors and Visual Foundation Models for Efficient Object Detection
 
-## ⚡ Performance
+## Performance
 
 | Model | AP | AP50 | AP75 | Latency (T4) | FPS (T4) | Note |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -26,3 +26,8 @@
 |  |  |  |  |  |  |  |
 
 * Our models are under training, the reported performance are temporarily results.
+
+## Acknowledgement
+
+Our work is built upon [RT-DETRv4](https://github.com/RT-DETRs/RT-DETRv4), [DEIMv2](https://github.com/Intellindust-AI-Lab/DEIMv2), [DINOv3](https://github.com/facebookresearch/dinov3), and [D-FINE](https://github.com/Peterande/D-FINE).
+Thanks for thier excellent works!
