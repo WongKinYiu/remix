@@ -15,7 +15,7 @@
 | + ReMix |  |  |  | 5.91 ms | 169 |  |
 |  |  |  |  |  |  |  |
 | RT-DETRv4-L | 55.4 | 73.0 | 60.3 | 8.07 ms | 124 | 58e/58e |
-| + Mix | 56.5 | 74.2 | 61.6 | 8.07 ms | 124 | 58e/58e |
+| + Mix | 56.5 | 74.2 | 61.6 | 8.07 ms | 124 | [weights](https://github.com/WongKinYiu/storage/releases/download/remix/RTv4-L-hgnet-Mix.pth) |
 | + Re |  |  |  | 8.07 ms | 124 |  |
 | + ReMix |  |  |  | 8.07 ms | 124 |  |
 |  |  |  |  |  |  |  |
